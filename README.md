@@ -12,7 +12,7 @@ This document explains how to run and evaluate **Part 3** of the assignment:
 
 The Part 3 notebook is located at:
 
-`notebooks/Untitled.ipynb`
+`notebooks/part_3_pyspark_implementation_n_resilience.ipynb`
 
 ## Project Paths Used in Part 3
 
@@ -57,11 +57,11 @@ Then open Jupyter in browser:
 
 Open:
 
-`/home/jovyan/work/Untitled.ipynb`
+`/home/jovyan/work/part_3_pyspark_implementation_n_resilience.ipynb`
 
 Note:
-- Host path: `notebooks/Untitled.ipynb`
-- Container path (mounted): `/home/jovyan/work/Untitled.ipynb`
+- Host path: `notebooks/part_3_pyspark_implementation_n_resilience.ipynb`
+- Container path (mounted): `/home/jovyan/work/part_3_pyspark_implementation_n_resilience.ipynb`
 
 ## 4) Run the Notebook
 
