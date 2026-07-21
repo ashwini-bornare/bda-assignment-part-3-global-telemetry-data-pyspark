@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  # ==========================================
+  # PYSPARK CLIENT / JUPYTER LAB
+  # ==========================================
+  pyspark-notebook:
+    image: jupyter/pyspark-notebook:spark-3.5.0
+    container_name: pyspark-notebook
+    restart: always
+    ports:
+      - "8888:8888" # Jupyter UI
+      - "4040:4040" # PySpark Application UI (when running active driver)
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./data:/home/jovyan/data
